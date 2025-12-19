@@ -7,7 +7,7 @@ export const toDoStore = defineStore('todo', {
     }),
     actions:{
         addItem(item){
-            for (let i = 0; i < 20000; i++) {
+            for (let i = 0; i < 10000; i++) {
                 this.items.push(item);
             }
         },
